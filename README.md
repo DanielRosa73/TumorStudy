@@ -48,6 +48,6 @@ Nous visualisons ensuite la différence d'intensité en utilisant Matplotlib. Po
 
 Seuil de différence d'intensité : 
 
-Un seuil arbitraire est défini pour déterminer si un voxel est considéré comme faisant partie de la tumeur. Dans ce cas, le seuil est fixé à la moitié de la différence d'intensité maximale. Ce choix est arbitraire et peut être ajusté en fonction des besoins spécifiques de l'analyse.
+Un seuil arbitraire est défini pour déterminer si un voxel est considéré comme faisant partie de la tumeur. Dans ce cas, le seuil est fixé à la moitié de la différence d'intensité maximale. Ce choix est arbitraire.
 
 Enfin, la différence de volume de la tumeur est calculée en comptant le nombre de voxels où la différence d'intensité dépasse le seuil. Cette mesure peut donner une indication de l'évolution de la tumeur.
